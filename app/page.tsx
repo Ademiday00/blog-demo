@@ -12,10 +12,10 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Navbar />
 
-      {/* Hero */}
-      <section className="">
+      
+      <section className="relative -top-10">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-16 sm:py-20 lg:grid-cols-2 lg:px-8 lg:py-24">
-          {/* Text */}
+          
           <div className="max-w-3xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">
               Media • Publishing • Storytelling

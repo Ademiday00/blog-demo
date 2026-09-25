@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="border-b border-gray-200 bg-white">
+    <nav className="sticky top-0 z-50 border-b border-gray-300 bg-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 lg:px-8">
         {/* Logo */}
         <Link
